@@ -1,6 +1,8 @@
 ## Running Tests Locally
 
-This FastAPI application uses SQLAlchemy's 'User' model and includes password hashing. It requires a running PostGres database and pushes a Docker image to Docker Hub on success.
+This FastAPI application uses SQLAlchemy's 'User' model and includes password hashing. It requires a running PostGres database and pushes a Docker image to Docker Hub on success. 
+
+This module extended the work from Module 10 (assignment 10) by adding a Calculation model, Pydantic validation schemas, an operation factory, along with unit and integration tests that exercise them.
 
 ### 1. Set up the environment
 
